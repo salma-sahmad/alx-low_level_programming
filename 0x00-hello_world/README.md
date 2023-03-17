@@ -1,1 +1,1 @@
-redme file for c
+readme for c
