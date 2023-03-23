@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle.
- * @size: numbers of lines.
- * Return: no return.
+ * _isdigit - checks if parameter is a number between 0 to 9.
+ * @c: input number.
+ * Return: 1 if is a number (0 to 9), 0 in other case.
  */
-void print_triangle(int size)
+int _isdigit(int c)
 {
-	int i, j;
-
-	for (i = 0; i < size; i++)
+	if (c >= 48 && c <= 57)
 	{
-		for (j = 1; j < (size - i); j++)
-			_putchar(' ');
-		for (j--; j < size; j++)
-			_putchar(35);
-		if (i < (size - 1))
-			_putchar('\n');
+		return (1);
 	}
-	_putchar('\n');
+	else
+	{
+		return (0);
+	}
 }
