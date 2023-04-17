@@ -1,1 +1,1 @@
-readme for c
+readme for structure
