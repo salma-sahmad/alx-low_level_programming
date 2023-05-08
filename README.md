@@ -1,1 +1,1 @@
-readme for file priject
+readme for C
